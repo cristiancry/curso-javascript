@@ -1,5 +1,9 @@
 // String o Cadenas de Texto
 
+const producto="Monitor de 20 pulgadas oh yeah";
+console.log(typeof producto);// typeof comando para definir el tipo de dato
+
+
 const tweet = 'Aprendiendo JavaScript con el curso de Desarrollo Web Completo';
 const producto2 = 'Monitor HD"';
 const nombre = 'Juan Pablo';
