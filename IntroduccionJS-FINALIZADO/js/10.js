@@ -16,4 +16,14 @@ producto.imagen = 'imagen.jpg';
 
 // Eliminar propiedades
 delete producto.disponible;
+
+const caracteristicas={
+    color: "rojo",
+    tamaño:"20",
+    modeloAntiguo:"false"
+
+}
+caracteristicas.unidades="20";
+
 console.log(producto);
+console.log(caracteristicas);

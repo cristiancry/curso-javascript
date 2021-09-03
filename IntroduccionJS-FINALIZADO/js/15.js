@@ -25,7 +25,7 @@ let resultado = meses.includes('Diciembre');
 
 // Some ideal para arreglo de objetos
 resultado = carrito.some(function(producto) {
-    return producto.nombre === 'Celular PRO'
+    return producto.nombre === 'Celular'
 })
 
 // Reduce

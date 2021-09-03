@@ -12,4 +12,5 @@ producto.precio = 'NUEVO PRECIO';
 
 delete producto.precio;
 
+
 console.log(producto);
