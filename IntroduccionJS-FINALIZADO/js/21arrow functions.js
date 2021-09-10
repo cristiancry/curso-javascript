@@ -9,7 +9,9 @@ const aprendiendo = tecnologia => console.log(`Aprendiendo ${tecnologia}`)
 
 aprendiendo('JavaScript');
 
+const hola = pianola => console.log(`hola ${pianola}`)
 
+hola('rocio');
 
 
 
@@ -35,10 +37,13 @@ meses.forEach( mes => {
     }
 });
 
-let resultado;
 
+let resultado;
+let resultado1;
 // Some ideal para arreglo de objetos
 resultado = carrito.some( producto => producto.nombre === 'Celular');
+resultado1= carrito.some( producto => producto.precio === 500 );
+console.log(resultado1);
 
 // Reduce
 resultado = carrito.reduce( (total, producto) =>  total + producto.precio, 0);

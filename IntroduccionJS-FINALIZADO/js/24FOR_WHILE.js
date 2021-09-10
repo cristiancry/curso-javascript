@@ -31,23 +31,31 @@ for(let i = 0; i < carrito.length; i++ ) {
 
 // While Loop
 
-// let i = 20; // Indice
+ let i = 0; // Indice
 
-// while(i < 10) { // Condición
+ while(i <= 100) { // Condición
 
-//     console.log('Desde el while loop');
+    if( i % 1 ==0 && i % 2 !=0 && i%3!=0 && i%5!=0 && i%i==0)
+    {
+        console.log( i +'es primo');
+    }
+    else  
+    {
+        console.log(i + 'no es primo');
+    }
+   
 
-//     i++;  // Incremento
-// }
+    i++;  // Incremento
+ }
 
 
 
 // Do While Loop
 
-let i = 100;
+/*let i = 100;
 
 do {
     console.log(i);
 
     i++;
-} while( i < 10);
+} while( i < 10);*/
